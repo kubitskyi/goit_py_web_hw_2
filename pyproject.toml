@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "goit-py-web-hw-2"
+version = "0.1.0"
+description = ""
+authors = ["kubitskyi <fenixm22@gmail.com>"]
+readme = "README.md"
+#packages = [{include = "goit_py_web_hw_2"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transliterate = "^1.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
